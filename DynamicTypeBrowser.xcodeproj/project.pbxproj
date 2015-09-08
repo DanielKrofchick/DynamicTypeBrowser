@@ -35,14 +35,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4CD220461B98E3A000FD385E /* FontBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD220461B98E3A000FD385E /* DynamicTypeBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicTypeBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD2204A1B98E3A000FD385E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CD2204B1B98E3A000FD385E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CD2204D1B98E3A000FD385E /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		4CD220501B98E3A000FD385E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CD220521B98E3A000FD385E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4CD220551B98E3A000FD385E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		4CD2205B1B98E3A000FD385E /* FontBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD2205B1B98E3A000FD385E /* DynamicTypeBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicTypeBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD220601B98E3A000FD385E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CD220611B98E3A000FD385E /* FontBrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontBrowserTests.swift; sourceTree = "<group>"; };
 		4CD2206B1B9A0D8B00FD385E /* UIFont+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
@@ -86,8 +86,8 @@
 		4CD220471B98E3A000FD385E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4CD220461B98E3A000FD385E /* FontBrowser.app */,
-				4CD2205B1B98E3A000FD385E /* FontBrowserTests.xctest */,
+				4CD220461B98E3A000FD385E /* DynamicTypeBrowser.app */,
+				4CD2205B1B98E3A000FD385E /* DynamicTypeBrowserTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,9 +142,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4CD220451B98E3A000FD385E /* FontBrowser */ = {
+		4CD220451B98E3A000FD385E /* DynamicTypeBrowser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4CD220651B98E3A000FD385E /* Build configuration list for PBXNativeTarget "FontBrowser" */;
+			buildConfigurationList = 4CD220651B98E3A000FD385E /* Build configuration list for PBXNativeTarget "DynamicTypeBrowser" */;
 			buildPhases = (
 				4CD220421B98E3A000FD385E /* Sources */,
 				4CD220431B98E3A000FD385E /* Frameworks */,
@@ -154,14 +154,14 @@
 			);
 			dependencies = (
 			);
-			name = FontBrowser;
+			name = DynamicTypeBrowser;
 			productName = FontBrowser;
-			productReference = 4CD220461B98E3A000FD385E /* FontBrowser.app */;
+			productReference = 4CD220461B98E3A000FD385E /* DynamicTypeBrowser.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4CD2205A1B98E3A000FD385E /* FontBrowserTests */ = {
+		4CD2205A1B98E3A000FD385E /* DynamicTypeBrowserTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4CD220681B98E3A000FD385E /* Build configuration list for PBXNativeTarget "FontBrowserTests" */;
+			buildConfigurationList = 4CD220681B98E3A000FD385E /* Build configuration list for PBXNativeTarget "DynamicTypeBrowserTests" */;
 			buildPhases = (
 				4CD220571B98E3A000FD385E /* Sources */,
 				4CD220581B98E3A000FD385E /* Frameworks */,
@@ -172,9 +172,9 @@
 			dependencies = (
 				4CD2205D1B98E3A000FD385E /* PBXTargetDependency */,
 			);
-			name = FontBrowserTests;
+			name = DynamicTypeBrowserTests;
 			productName = FontBrowserTests;
-			productReference = 4CD2205B1B98E3A000FD385E /* FontBrowserTests.xctest */;
+			productReference = 4CD2205B1B98E3A000FD385E /* DynamicTypeBrowserTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -196,7 +196,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4CD220411B98E3A000FD385E /* Build configuration list for PBXProject "FontBrowser" */;
+			buildConfigurationList = 4CD220411B98E3A000FD385E /* Build configuration list for PBXProject "DynamicTypeBrowser" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -209,8 +209,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4CD220451B98E3A000FD385E /* FontBrowser */,
-				4CD2205A1B98E3A000FD385E /* FontBrowserTests */,
+				4CD220451B98E3A000FD385E /* DynamicTypeBrowser */,
+				4CD2205A1B98E3A000FD385E /* DynamicTypeBrowserTests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,7 +267,7 @@
 /* Begin PBXTargetDependency section */
 		4CD2205D1B98E3A000FD385E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4CD220451B98E3A000FD385E /* FontBrowser */;
+			target = 4CD220451B98E3A000FD385E /* DynamicTypeBrowser */;
 			targetProxy = 4CD2205C1B98E3A000FD385E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -381,7 +381,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FontBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DynamicTypeBrowser;
 			};
 			name = Debug;
 		};
@@ -391,7 +391,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FontBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DynamicTypeBrowser;
 			};
 			name = Release;
 		};
@@ -409,7 +409,7 @@
 				);
 				INFOPLIST_FILE = FontBrowserTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DynamicTypeBrowserTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontBrowser.app/FontBrowser";
 			};
 			name = Debug;
@@ -424,7 +424,7 @@
 				);
 				INFOPLIST_FILE = FontBrowserTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DynamicTypeBrowserTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontBrowser.app/FontBrowser";
 			};
 			name = Release;
@@ -432,7 +432,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4CD220411B98E3A000FD385E /* Build configuration list for PBXProject "FontBrowser" */ = {
+		4CD220411B98E3A000FD385E /* Build configuration list for PBXProject "DynamicTypeBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4CD220631B98E3A000FD385E /* Debug */,
@@ -441,7 +441,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4CD220651B98E3A000FD385E /* Build configuration list for PBXNativeTarget "FontBrowser" */ = {
+		4CD220651B98E3A000FD385E /* Build configuration list for PBXNativeTarget "DynamicTypeBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4CD220661B98E3A000FD385E /* Debug */,
@@ -450,7 +450,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4CD220681B98E3A000FD385E /* Build configuration list for PBXNativeTarget "FontBrowserTests" */ = {
+		4CD220681B98E3A000FD385E /* Build configuration list for PBXNativeTarget "DynamicTypeBrowserTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4CD220691B98E3A000FD385E /* Debug */,

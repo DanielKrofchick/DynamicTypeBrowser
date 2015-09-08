@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4CD220451B98E3A000FD385E"
-               BuildableName = "FontBrowser.app"
-               BlueprintName = "FontBrowser"
-               ReferencedContainer = "container:FontBrowser.xcodeproj">
+               BuildableName = "DynamicTypeBrowser.app"
+               BlueprintName = "DynamicTypeBrowser"
+               ReferencedContainer = "container:DynamicTypeBrowser.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4CD2205A1B98E3A000FD385E"
-               BuildableName = "FontBrowserTests.xctest"
-               BlueprintName = "FontBrowserTests"
-               ReferencedContainer = "container:FontBrowser.xcodeproj">
+               BuildableName = "DynamicTypeBrowserTests.xctest"
+               BlueprintName = "DynamicTypeBrowserTests"
+               ReferencedContainer = "container:DynamicTypeBrowser.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4CD2205A1B98E3A000FD385E"
-               BuildableName = "FontBrowserTests.xctest"
-               BlueprintName = "FontBrowserTests"
-               ReferencedContainer = "container:FontBrowser.xcodeproj">
+               BuildableName = "DynamicTypeBrowserTests.xctest"
+               BlueprintName = "DynamicTypeBrowserTests"
+               ReferencedContainer = "container:DynamicTypeBrowser.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4CD220451B98E3A000FD385E"
-            BuildableName = "FontBrowser.app"
-            BlueprintName = "FontBrowser"
-            ReferencedContainer = "container:FontBrowser.xcodeproj">
+            BuildableName = "DynamicTypeBrowser.app"
+            BlueprintName = "DynamicTypeBrowser"
+            ReferencedContainer = "container:DynamicTypeBrowser.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4CD220451B98E3A000FD385E"
-            BuildableName = "FontBrowser.app"
-            BlueprintName = "FontBrowser"
-            ReferencedContainer = "container:FontBrowser.xcodeproj">
+            BuildableName = "DynamicTypeBrowser.app"
+            BlueprintName = "DynamicTypeBrowser"
+            ReferencedContainer = "container:DynamicTypeBrowser.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4CD220451B98E3A000FD385E"
-            BuildableName = "FontBrowser.app"
-            BlueprintName = "FontBrowser"
-            ReferencedContainer = "container:FontBrowser.xcodeproj">
+            BuildableName = "DynamicTypeBrowser.app"
+            BlueprintName = "DynamicTypeBrowser"
+            ReferencedContainer = "container:DynamicTypeBrowser.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
