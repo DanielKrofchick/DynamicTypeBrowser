@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4CD2204C1B98E3A000FD385E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD2204B1B98E3A000FD385E /* AppDelegate.swift */; };
-		4CD2204E1B98E3A000FD385E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD2204D1B98E3A000FD385E /* ViewController.swift */; };
+		4CD2204E1B98E3A000FD385E /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD2204D1B98E3A000FD385E /* CategoryViewController.swift */; };
 		4CD220511B98E3A000FD385E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD2204F1B98E3A000FD385E /* Main.storyboard */; };
 		4CD220531B98E3A000FD385E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD220521B98E3A000FD385E /* Images.xcassets */; };
 		4CD220561B98E3A000FD385E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CD220541B98E3A000FD385E /* LaunchScreen.xib */; };
@@ -16,7 +16,12 @@
 		4CD2206C1B9A0D8B00FD385E /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD2206B1B9A0D8B00FD385E /* UIFont+Extensions.swift */; };
 		4CD2206E1B9A202B00FD385E /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD2206D1B9A202B00FD385E /* UIApplication+Extensions.swift */; };
 		4CD220701B9A2AB700FD385E /* DynamicTypeObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD2206F1B9A2AB700FD385E /* DynamicTypeObserver.swift */; };
-		4CD220741B9A8F5900FD385E /* ContentSizeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD220731B9A8F5900FD385E /* ContentSizeCell.swift */; };
+		4CD220741B9A8F5900FD385E /* ContentSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD220731B9A8F5900FD385E /* ContentSizeView.swift */; };
+		4CD220761B9D618A00FD385E /* NSIndexPath+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD220751B9D618A00FD385E /* NSIndexPath+Extensions.swift */; };
+		4CD220801B9D86F900FD385E /* FontCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD2207F1B9D86F900FD385E /* FontCell.swift */; };
+		4CD220821B9D870700FD385E /* FontCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CD220811B9D870700FD385E /* FontCell.xib */; };
+		4CD220841B9E011000FD385E /* ContentSizeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD220831B9E011000FD385E /* ContentSizeSlider.swift */; };
+		4CD220861B9E825C00FD385E /* FontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD220851B9E825C00FD385E /* FontViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +38,7 @@
 		4CD220461B98E3A000FD385E /* FontBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD2204A1B98E3A000FD385E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CD2204B1B98E3A000FD385E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4CD2204D1B98E3A000FD385E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CD2204D1B98E3A000FD385E /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		4CD220501B98E3A000FD385E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CD220521B98E3A000FD385E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4CD220551B98E3A000FD385E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -43,7 +48,12 @@
 		4CD2206B1B9A0D8B00FD385E /* UIFont+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
 		4CD2206D1B9A202B00FD385E /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
 		4CD2206F1B9A2AB700FD385E /* DynamicTypeObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicTypeObserver.swift; sourceTree = "<group>"; };
-		4CD220731B9A8F5900FD385E /* ContentSizeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentSizeCell.swift; path = ../ContentSizeCell.swift; sourceTree = "<group>"; };
+		4CD220731B9A8F5900FD385E /* ContentSizeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentSizeView.swift; path = ../ContentSizeView.swift; sourceTree = "<group>"; };
+		4CD220751B9D618A00FD385E /* NSIndexPath+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSIndexPath+Extensions.swift"; sourceTree = "<group>"; };
+		4CD2207F1B9D86F900FD385E /* FontCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FontCell.swift; path = ../FontCell.swift; sourceTree = "<group>"; };
+		4CD220811B9D870700FD385E /* FontCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FontCell.xib; path = ../FontCell.xib; sourceTree = "<group>"; };
+		4CD220831B9E011000FD385E /* ContentSizeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentSizeSlider.swift; sourceTree = "<group>"; };
+		4CD220851B9E825C00FD385E /* FontViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,11 +96,16 @@
 			isa = PBXGroup;
 			children = (
 				4CD2204B1B98E3A000FD385E /* AppDelegate.swift */,
-				4CD2204D1B98E3A000FD385E /* ViewController.swift */,
+				4CD2204D1B98E3A000FD385E /* CategoryViewController.swift */,
+				4CD220851B9E825C00FD385E /* FontViewController.swift */,
 				4CD2206F1B9A2AB700FD385E /* DynamicTypeObserver.swift */,
-				4CD220731B9A8F5900FD385E /* ContentSizeCell.swift */,
+				4CD220731B9A8F5900FD385E /* ContentSizeView.swift */,
+				4CD220831B9E011000FD385E /* ContentSizeSlider.swift */,
+				4CD220811B9D870700FD385E /* FontCell.xib */,
+				4CD2207F1B9D86F900FD385E /* FontCell.swift */,
 				4CD2206B1B9A0D8B00FD385E /* UIFont+Extensions.swift */,
 				4CD2206D1B9A202B00FD385E /* UIApplication+Extensions.swift */,
+				4CD220751B9D618A00FD385E /* NSIndexPath+Extensions.swift */,
 				4CD2204F1B98E3A000FD385E /* Main.storyboard */,
 				4CD220521B98E3A000FD385E /* Images.xcassets */,
 				4CD220541B98E3A000FD385E /* LaunchScreen.xib */,
@@ -168,6 +183,7 @@
 		4CD2203E1B98E3A000FD385E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Figure1;
 				TargetAttributes = {
@@ -204,6 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CD220821B9D870700FD385E /* FontCell.xib in Resources */,
 				4CD220511B98E3A000FD385E /* Main.storyboard in Resources */,
 				4CD220561B98E3A000FD385E /* LaunchScreen.xib in Resources */,
 				4CD220531B98E3A000FD385E /* Images.xcassets in Resources */,
@@ -224,10 +241,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CD2204E1B98E3A000FD385E /* ViewController.swift in Sources */,
+				4CD220801B9D86F900FD385E /* FontCell.swift in Sources */,
+				4CD2204E1B98E3A000FD385E /* CategoryViewController.swift in Sources */,
+				4CD220841B9E011000FD385E /* ContentSizeSlider.swift in Sources */,
+				4CD220861B9E825C00FD385E /* FontViewController.swift in Sources */,
 				4CD2206C1B9A0D8B00FD385E /* UIFont+Extensions.swift in Sources */,
+				4CD220761B9D618A00FD385E /* NSIndexPath+Extensions.swift in Sources */,
 				4CD2206E1B9A202B00FD385E /* UIApplication+Extensions.swift in Sources */,
-				4CD220741B9A8F5900FD385E /* ContentSizeCell.swift in Sources */,
+				4CD220741B9A8F5900FD385E /* ContentSizeView.swift in Sources */,
 				4CD220701B9A2AB700FD385E /* DynamicTypeObserver.swift in Sources */,
 				4CD2204C1B98E3A000FD385E /* AppDelegate.swift in Sources */,
 			);

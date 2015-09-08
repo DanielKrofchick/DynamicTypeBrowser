@@ -39,7 +39,7 @@ extension UIApplication {
     class func nameForContentSizeCateogy(category: String) -> String {
         switch category {
         case UIContentSizeCategoryExtraSmall:
-            return "ExtraSmall"
+            return "XSmall"
         case UIContentSizeCategorySmall:
             return "Small"
         case UIContentSizeCategoryMedium:
@@ -47,21 +47,21 @@ extension UIApplication {
         case UIContentSizeCategoryLarge:
             return "Large"
         case UIContentSizeCategoryExtraLarge:
-            return "ExtraLarge"
+            return "XLarge"
         case UIContentSizeCategoryExtraExtraLarge:
-            return "ExtraExtraLarge"
+            return "XXLarge"
         case UIContentSizeCategoryExtraExtraExtraLarge:
-            return "ExtraExtraExtraLarge"
+            return "XXXLarge"
         case UIContentSizeCategoryAccessibilityMedium:
             return "AccessibilityMedium"
         case UIContentSizeCategoryAccessibilityLarge:
             return "AccessibilityLarge"
         case UIContentSizeCategoryAccessibilityExtraLarge:
-            return "AccessibilityExtraLarge"
+            return "AccessibilityXLarge"
         case UIContentSizeCategoryAccessibilityExtraExtraLarge:
-            return "AccessibilityExtraExtraLarge"
+            return "AccessibilityXXLarge"
         case UIContentSizeCategoryAccessibilityExtraExtraExtraLarge:
-            return "AccessibilityExtraExtraExtraLarge"
+            return "AccessibilityXXXLarge"
         default:
             return ""
         }
