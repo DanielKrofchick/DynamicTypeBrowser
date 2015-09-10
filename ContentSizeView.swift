@@ -37,6 +37,7 @@ class ContentSizeView: UIView {
         initConstraints()
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("contentSizeClassDidChange"), name: UIContentSizeCategoryDidChangeNotification, object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("contentSizeClassDidChange"), name: dynamicTypeObserverDidChangeNotification, object: nil)
     }
     
     required init(coder aDecoder: NSCoder) {

@@ -24,7 +24,8 @@ class CategoryViewController: UITableViewController {
         super.viewDidLoad()
 
         NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("contentSizeClassDidChange:"), name: UIContentSizeCategoryDidChangeNotification, object: nil)
-
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("contentSizeClassDidChange:"), name: dynamicTypeObserverDidChangeNotification, object: nil)
+        
         tableView.registerNib(UINib(nibName: "FontCell", bundle: nil), forCellReuseIdentifier: cellReuseIdentifier)
         
         dynamicTypeObserver.completionBlock = {
@@ -37,6 +38,9 @@ class CategoryViewController: UITableViewController {
         dynamicTypeObserver.loadDefaults()
         contentSize.contentSizeClassDidChange()
         setTitle()
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "", style: .Plain, target: self, action: Selector("customSelectorTap"))
+        updateCustomSelector()
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -59,6 +63,7 @@ class CategoryViewController: UITableViewController {
     
     @objc func contentSizeClassDidChange(note: NSNotification) {
         setTitle()
+        tableView.reloadData()
     }
     
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -141,7 +146,7 @@ class CategoryViewController: UITableViewController {
     func setTitle() {
         if dynamicTypeObserver.preferredFonts[self.category] == nil {
             let label = UILabel()
-            label.font = UIFont.systemFontOfSize(12.0)
+            label.font = UIFont.systemFontOfSize(10.0)
             label.text = "Settings > General > Accessibility > Larger Text"
             label.sizeToFit()
             
@@ -149,6 +154,15 @@ class CategoryViewController: UITableViewController {
         } else {
             navigationItem.titleView = nil
         }
+    }
+    
+    func customSelectorTap() {
+        dynamicTypeObserver.custom = !dynamicTypeObserver.custom
+        updateCustomSelector()
+    }
+    
+    func updateCustomSelector() {
+        navigationItem.rightBarButtonItem?.title = dynamicTypeObserver.custom ? "Custom" : "System"
     }
     
 }

@@ -12,7 +12,6 @@
 		4CD220511B98E3A000FD385E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD2204F1B98E3A000FD385E /* Main.storyboard */; };
 		4CD220531B98E3A000FD385E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD220521B98E3A000FD385E /* Images.xcassets */; };
 		4CD220561B98E3A000FD385E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CD220541B98E3A000FD385E /* LaunchScreen.xib */; };
-		4CD220621B98E3A000FD385E /* FontBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD220611B98E3A000FD385E /* FontBrowserTests.swift */; };
 		4CD2206C1B9A0D8B00FD385E /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD2206B1B9A0D8B00FD385E /* UIFont+Extensions.swift */; };
 		4CD2206E1B9A202B00FD385E /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD2206D1B9A202B00FD385E /* UIApplication+Extensions.swift */; };
 		4CD220701B9A2AB700FD385E /* DynamicTypeObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD2206F1B9A2AB700FD385E /* DynamicTypeObserver.swift */; };
@@ -24,16 +23,6 @@
 		4CD220861B9E825C00FD385E /* FontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD220851B9E825C00FD385E /* FontViewController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4CD2205C1B98E3A000FD385E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CD2203E1B98E3A000FD385E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4CD220451B98E3A000FD385E;
-			remoteInfo = FontBrowser;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		4CD220461B98E3A000FD385E /* DynamicTypeBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicTypeBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD2204A1B98E3A000FD385E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,7 +31,6 @@
 		4CD220501B98E3A000FD385E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CD220521B98E3A000FD385E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4CD220551B98E3A000FD385E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		4CD2205B1B98E3A000FD385E /* DynamicTypeBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicTypeBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD220601B98E3A000FD385E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CD220611B98E3A000FD385E /* FontBrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontBrowserTests.swift; sourceTree = "<group>"; };
 		4CD2206B1B9A0D8B00FD385E /* UIFont+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
@@ -58,13 +46,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		4CD220431B98E3A000FD385E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CD220581B98E3A000FD385E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -87,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				4CD220461B98E3A000FD385E /* DynamicTypeBrowser.app */,
-				4CD2205B1B98E3A000FD385E /* DynamicTypeBrowserTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,24 +139,6 @@
 			productReference = 4CD220461B98E3A000FD385E /* DynamicTypeBrowser.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4CD2205A1B98E3A000FD385E /* DynamicTypeBrowserTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4CD220681B98E3A000FD385E /* Build configuration list for PBXNativeTarget "DynamicTypeBrowserTests" */;
-			buildPhases = (
-				4CD220571B98E3A000FD385E /* Sources */,
-				4CD220581B98E3A000FD385E /* Frameworks */,
-				4CD220591B98E3A000FD385E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4CD2205D1B98E3A000FD385E /* PBXTargetDependency */,
-			);
-			name = DynamicTypeBrowserTests;
-			productName = FontBrowserTests;
-			productReference = 4CD2205B1B98E3A000FD385E /* DynamicTypeBrowserTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -189,10 +151,6 @@
 				TargetAttributes = {
 					4CD220451B98E3A000FD385E = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					4CD2205A1B98E3A000FD385E = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 4CD220451B98E3A000FD385E;
 					};
 				};
 			};
@@ -210,7 +168,6 @@
 			projectRoot = "";
 			targets = (
 				4CD220451B98E3A000FD385E /* DynamicTypeBrowser */,
-				4CD2205A1B98E3A000FD385E /* DynamicTypeBrowserTests */,
 			);
 		};
 /* End PBXProject section */
@@ -224,13 +181,6 @@
 				4CD220511B98E3A000FD385E /* Main.storyboard in Resources */,
 				4CD220561B98E3A000FD385E /* LaunchScreen.xib in Resources */,
 				4CD220531B98E3A000FD385E /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CD220591B98E3A000FD385E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,23 +204,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CD220571B98E3A000FD385E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CD220621B98E3A000FD385E /* FontBrowserTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4CD2205D1B98E3A000FD385E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4CD220451B98E3A000FD385E /* DynamicTypeBrowser */;
-			targetProxy = 4CD2205C1B98E3A000FD385E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4CD2204F1B98E3A000FD385E /* Main.storyboard */ = {
@@ -395,40 +329,6 @@
 			};
 			name = Release;
 		};
-		4CD220691B98E3A000FD385E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = FontBrowserTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = DynamicTypeBrowserTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontBrowser.app/FontBrowser";
-			};
-			name = Debug;
-		};
-		4CD2206A1B98E3A000FD385E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = FontBrowserTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = DynamicTypeBrowserTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontBrowser.app/FontBrowser";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -446,15 +346,6 @@
 			buildConfigurations = (
 				4CD220661B98E3A000FD385E /* Debug */,
 				4CD220671B98E3A000FD385E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4CD220681B98E3A000FD385E /* Build configuration list for PBXNativeTarget "DynamicTypeBrowserTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4CD220691B98E3A000FD385E /* Debug */,
-				4CD2206A1B98E3A000FD385E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
